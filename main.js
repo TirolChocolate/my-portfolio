@@ -41,16 +41,16 @@ const Cat = document.getElementById("cat");
 const Dog = document.getElementById("dog");
 
 Mole.onclick = function () {
-  a1.textContent = "残念！不正解です！";
+  a2.textContent = "残念！不正解です！";
 };
 Lizards.onclick = function () {
-  a1.textContent = "残念！不正解です！";
+  a2.textContent = "残念！不正解です！";
 };
 Owl.onclick = function () {
-  a1.textContent = "残念！不正解です！";
+  a2.textContent = "残念！不正解です！";
 };
 Dog.onclick = function () {
-  a1.textContent = "残念！不正解です！";
+  a2.textContent = "残念！不正解です！";
 };
 Cat.onclick = function () {
   a2.textContent = "正解です！";
