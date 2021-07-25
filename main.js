@@ -40,10 +40,18 @@ const Owl = document.getElementById("owl");
 const Cat = document.getElementById("cat");
 const Dog = document.getElementById("dog");
 
-Mole.onclick = a2.textContent = "残念！不正解です！";
-Lizards.onclick = a2.textContent = "残念！不正解です！";
-Owl.onclick = a2.textContent = "残念！不正解です！";
-Dog.onclick = a2.textContent = "残念！不正解です！";
+Mole.onclick = function () {
+  a1.textContent = "残念！不正解です！";
+};
+Lizards.onclick = function () {
+  a1.textContent = "残念！不正解です！";
+};
+Owl.onclick = function () {
+  a1.textContent = "残念！不正解です！";
+};
+Dog.onclick = function () {
+  a1.textContent = "残念！不正解です！";
+};
 Cat.onclick = function () {
   a2.textContent = "正解です！";
 };
