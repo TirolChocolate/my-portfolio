@@ -126,6 +126,12 @@ h5.onclick = function () {
   a5.textContent = "ヒント:中学の時は高校の時とは違う部活でした";
 };
 
+const finish = document.getElementById("finish");
+const FM = document.getElementById("FinishMessage");
+finish.onclick = function () {
+  FM.textContent = "お疲れ様でした！";
+};
+
 // function T(a) {console.log("T");a.textContent = "正解です！";}
 // function F(a) {console.log("F");a.textContent = "残念！不正解です！";}
 
